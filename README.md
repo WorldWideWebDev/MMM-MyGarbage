@@ -9,7 +9,7 @@ Clone this repository in your modules folder, and install dependencies:
 
 ```
 cd ~/MagicMirror/modules 
-git clone https://github.com/htilburgs/MMM-MyGarbage.git
+git clone https://github.com/WorldWideWebDev/MMM-MyGarbage.git
 cd MMM-MyGarbage
 npm install 
 ```
@@ -21,7 +21,7 @@ Add the module to your modules array in your config.js.
 ```
 {
   module: 'MMM-MyGarbage',
-  position: 'top_left',
+  position: 'middle',
   header: 'My Garbage Calendar',
   config: {
           alert: 4,
